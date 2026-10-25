@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Gelato</title>
+    <item>
+      <title>Gelato 0.1.3446</title>
+      <pubDate>Sun, 25 Oct 2026 13:39:59 GMT</pubDate>
+      <sparkle:version>3446</sparkle:version>
+      <sparkle:shortVersionString>0.1.3446</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-10-25</gelatoBuildDate>
+      <description><![CDATA[<h2>Gelato beta</h2>
+<p>Thanks for trying the first beta. Everything below works with your tester licence.</p>
+
+<h3>What’s in it</h3>
+<ul>
+  <li>Import a CSV export of an Eos show file. Colour palettes are filed by gel and by light; any it can’t read a gel from wait in To Match.</li>
+  <li>See the versions of a mix side by side, and choose the one builds use.</li>
+  <li>Build a new show’s palettes in Blind after one confirmation, or export the build as a CSV to import yourself.</li>
+  <li>Add a colour in tech (L602, say), from the app or from a Stream Deck through Companion.</li>
+  <li>Preview a colour on a light from your own command line. Nothing is recorded.</li>
+  <li>Turn on the show-mode lock and nothing is written to the console.</li>
+  <li>Updates: with Settings ▸ Updates ▸ Get beta updates on, each new beta arrives here. Nothing installs while a console is connected.</li>
+</ul>
+
+<h3>Not in it yet</h3>
+<ul>
+  <li>Buying Gelato. Your tester licence is free for a year.</li>
+  <li>The Companion module in Bitfocus’s list. Ask us for it at the address below.</li>
+</ul>
+
+<h3>Feedback</h3>
+<p>Choose Help ▸ Send Feedback…. It opens an email with your version and any recent crash reports attached. Or write to <a href="mailto:support@flatfield.co">support@flatfield.co</a>.</p>
+<p>Libraries you make from this beta on keep working in every later build.</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.1.3446/Gelato-0.1.3446.dmg" sparkle:edSignature="N4ICx2+62YYwei4S6wgxbPjbFLxFMkwLkJpYAjTB/lA0ecsMebl8uunMRwu9DUF3T2d2jSlKy+0XLwbtRjcaDA==" length="24787049" type="application/x-apple-diskimage"/>
+    </item>
+  </channel>
+</rss>
