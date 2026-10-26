@@ -3,6 +3,67 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.2</title>
+      <pubDate>Mon, 26 Oct 2026 12:29:03 GMT</pubDate>
+      <sparkle:version>3536</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-10-26</gelatoBuildDate>
+      <description><![CDATA[<ul>
+  <li>R-56: task file (Spark corner fix in the licence emails)</li>
+  <li>Launch plan: Alex&#x27;s yes to all seven suggested places</li>
+  <li>Launch plan: Alex&#x27;s three places and their codes; suggestions for more</li>
+  <li>R-54: worker-kit v0.2.0</li>
+  <li>R-55: tick the check.sh box</li>
+  <li>R-54: licence emails on email template version 2 (worker-kit eb5536f until v0.2.0 is tagged)</li>
+  <li>R-55: a darker glass shelf on the DMG</li>
+  <li>R-54: the darker shelf and the live header; R-55: the DMG&#x27;s darker shelf</li>
+  <li>R-54: licence emails on email template version 2</li>
+  <li>T-20: the keys are in the vault; note the sandbox push and the Resend comment</li>
+  <li>T-20: the Developer ID backup lives in the shared flatfield-signing project</li>
+  <li>T-20: release and deploy read their keys from the vault</li>
+  <li>T-19: task file (import renders inherit an earlier render&#x27;s licence)</li>
+  <li>T-18: the thirteen-parameter Compare render&#x27;s designer is Jo Bloggs, and ux.md&#x27;s example show is invented</li>
+  <li>T-18: renders use invented show, venue and designer names, and the app&#x27;s version</li>
+  <li>UI-106: tick the check.sh box</li>
+  <li>UI-105: Families&#x27; toolbar buttons go icon-only before the title leaves</li>
+  <li>T-18: task file (renders use invented show names and the app&#x27;s version)</li>
+  <li>UI-104: the import steps&#x27; Show tile takes a second line before it shortens</li>
+  <li>UI-106: the import banner counts palettes taken from the rig; a licence the build doesn&#x27;t accept has its own line</li>
+  <li>T-17: tick the boxes</li>
+  <li>T-17: the plain welcome renders draw the licence pill as the fill, as the window does</li>
+  <li>UI-106: the UX lead&#x27;s wording (banner, wrong-key licence)</li>
+  <li>AB-05 polish tasks (UI-104, UI-105, UI-106) and T-17 welcome renders</li>
+  <li>R-53: the window is 476 pt tall, for macOS 26&#x27;s 32 pt title bar; dark mount ticked</li>
+  <li>R-53: the arrow&#x27;s glow is 10 pt at both densities; check box ticked</li>
+  <li>UI-103: WelcomeText&#x27;s comment describes the new ground and band</li>
+  <li>UI-103: the welcome window in the site card&#x27;s look</li>
+  <li>UI-103: build spec (D½, the strip as tall as the title bar)</li>
+  <li>UI-102: only the tick is green; the added line&#x27;s words are primary (system green text is 2:1 in light)</li>
+  <li>UI-102: tick the check line in the task file</li>
+  <li>UI-103: the welcome window in the site card&#x27;s look</li>
+  <li>R-53: the designed DMG: background, layout written without Finder, Gelato&#x27;s icon on the disk</li>
+  <li>R-41: B5 and B6 say pro, after R-51</li>
+  <li>R-51: tick the check line</li>
+  <li>R-52: the release flag only for a release that is published; the version checked before the archive</li>
+  <li>R-53: the approved DMG design and its build spec</li>
+  <li>R-53: Alex picks B, revised in the site card&#x27;s style</li>
+  <li>R-51: the issuing tool&#x27;s command-line lines are British on purpose</li>
+  <li>R-53: task file, a designed DMG window</li>
+  <li>R-52: marketing versions: Gelato 0.2, the commit count as the build number, one release per version</li>
+  <li>UI-102: an added licence shows a green tick and a green line, announced to VoiceOver and cleared when the pane goes; the add lines are localised (R-06)</li>
+  <li>R-51: the Gelato Pro licence says pro, not showkit; issue-licence signs only with the key the app trusts</li>
+  <li>R-52: task file, marketing versions from 0.2</li>
+  <li>UI-102: UX lead&#x27;s note (green tick, cleared when the pane closes, VoiceOver announcement)</li>
+  <li>UI-102: task file, a tick when a licence is added</li>
+  <li>R-51: issue only with the key the app trusts</li>
+  <li>R-51: task file, the Gelato Pro licence product id is pro</li>
+  <li>R-41: B2 and B4 done, beta 0.1.3446 published</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.2/Gelato-0.2.dmg" sparkle:edSignature="DkB2pC6p0rRCIkExLF0D5j5bn3URyS4B12BqhfqGdk/sPobGRAZ/3EGj4OwFQQJBljbXtsh1qSy8P811WpD2Aw==" length="21719459" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.1.3446</title>
       <pubDate>Sun, 25 Oct 2026 13:39:59 GMT</pubDate>
       <sparkle:version>3446</sparkle:version>
