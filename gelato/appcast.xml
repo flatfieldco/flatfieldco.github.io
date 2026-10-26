@@ -12,8 +12,8 @@
       <gelatoBuildDate>2026-10-26</gelatoBuildDate>
       <description><![CDATA[<ul>
   <li>R-56: task file (Spark corner fix in the licence emails)</li>
-  <li>Launch plan: Alex&#x27;s yes to all seven suggested places</li>
-  <li>Launch plan: Alex&#x27;s three places and their codes; suggestions for more</li>
+  <li>Launch plan: seven more places to post</li>
+  <li>Launch plan: three places to post, with their codes</li>
   <li>R-54: worker-kit v0.2.0</li>
   <li>R-55: tick the check.sh box</li>
   <li>R-54: licence emails on email template version 2 (worker-kit eb5536f until v0.2.0 is tagged)</li>
@@ -48,7 +48,7 @@
   <li>R-51: tick the check line</li>
   <li>R-52: the release flag only for a release that is published; the version checked before the archive</li>
   <li>R-53: the approved DMG design and its build spec</li>
-  <li>R-53: Alex picks B, revised in the site card&#x27;s style</li>
+  <li>R-53: the welcome window in the site card&#x27;s style</li>
   <li>R-51: the issuing tool&#x27;s command-line lines are British on purpose</li>
   <li>R-53: task file, a designed DMG window</li>
   <li>R-52: marketing versions: Gelato 0.2, the commit count as the build number, one release per version</li>
