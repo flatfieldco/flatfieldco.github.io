@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:exeunt="https://flatfield.co/exeunt/appcast">
+  <channel>
+    <title>Exeunt</title>
+    <link>https://flatfield.co/exeunt/</link>
+    <description>Exeunt updates</description>
+    <item>
+      <title>Exeunt 0.1.855</title>
+      <sparkle:version>855</sparkle:version>
+      <sparkle:shortVersionString>0.1.855</sparkle:shortVersionString>
+      <sparkle:os>linux</sparkle:os>
+      <exeunt:arch>amd64</exeunt:arch>
+      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.855/exeunt_0.1.855_amd64.deb" length="2836744" type="application/octet-stream" sparkle:edSignature="KoeGvXTnLvnVFHjib/dlGrOe81Hg4S4ZLZopwvzz3Exr896kH2kpbXOpO+k1W9ojlCOxP+uwCYXA7o6lg3iVCQ=="/>
+    </item>
+    <item>
+      <title>Exeunt 0.1.855</title>
+      <sparkle:version>855</sparkle:version>
+      <sparkle:shortVersionString>0.1.855</sparkle:shortVersionString>
+      <sparkle:os>linux</sparkle:os>
+      <exeunt:arch>arm64</exeunt:arch>
+      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.855/exeunt_0.1.855_arm64.deb" length="2411588" type="application/octet-stream" sparkle:edSignature="2ip7VJflvusKHZs7sS4+Ec0uLPYJ/VGleVfXukjihKPIprpG15Y7D1mdW9C6EGyJjFEk06tFnOUTNsAPXjWqBA=="/>
+    </item>
+    <item>
+      <title>Exeunt 0.1.855</title>
+      <sparkle:version>855</sparkle:version>
+      <sparkle:shortVersionString>0.1.855</sparkle:shortVersionString>
+      <sparkle:os>macos</sparkle:os>
+      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.855/Exeunt-0.1.855.dmg" length="15239703" type="application/octet-stream" sparkle:edSignature="QzsJIRUnklSg4A22SOHqIWddVNG60nOv/iqPo5miifXOFC0Eaw33dm0FaCH/csIoW4mWCSmvpH4faos+uya0BQ=="/>
+    </item>
+    <item>
+      <title>Exeunt 0.1.855</title>
+      <sparkle:version>855</sparkle:version>
+      <sparkle:shortVersionString>0.1.855</sparkle:shortVersionString>
+      <sparkle:os>windows</sparkle:os>
+      <exeunt:arch>amd64</exeunt:arch>
+      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.855/Exeunt-Setup-0.1.855.exe" length="16297393" type="application/octet-stream" sparkle:edSignature="lnvOuxqEzvzyy8u1LHaY9Nfm8oKdcmq4ncKuDV7bKGqQ6u69/j2H1ilWd8Xv9xxar+e+jdHfdXfeIqMAFlfcBg=="/>
+    </item>
+  </channel>
+</rss>
