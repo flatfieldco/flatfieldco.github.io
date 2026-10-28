@@ -3,6 +3,119 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.4</title>
+      <pubDate>Wed, 28 Oct 2026 16:59:09 GMT</pubDate>
+      <sparkle:version>3838</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-10-28</gelatoBuildDate>
+      <description><![CDATA[<ul>
+  <li>R-61b: Show Kit&#x27;s closing card is unlit slate; the Closing Card Rule covers any page&#x27;s closing card</li>
+  <li>R-61: inner-page wash back to lavender (the band&#x27;s light); DESIGN.md contrast figure 5.8:1</li>
+  <li>R-61: DESIGN.md says deep orange wherever it means Lee 158</li>
+  <li>R-61: DESIGN.md step-cards list says deep orange</li>
+  <li>R-61: site panel colours: deep orange, yellow, cyan, pink; unlit closing card</li>
+  <li>R-61: the colour pick, Pro on deep orange and an unlit closing card</li>
+  <li>UI-113: ux.md explains cap and windowCap together; Glow.swift&#x27;s comments name the cap each solve uses</li>
+  <li>R-61: set D and the card after the plans</li>
+  <li>R-41-A11: check.sh line recorded</li>
+  <li>UI-113: docs and task file for the toolbar, the real-window numbers and full screen</li>
+  <li>UI-113: see-through window toolbar; dark glow solved against the real window&#x27;s reading</li>
+  <li>R-50: both tabs of the wording sheet are filled</li>
+  <li>R-41-A11: the Release notes link stays hidden until launch</li>
+  <li>R-41-A11: task file ticked, check.sh line recorded</li>
+  <li>R-61: Pro&#x27;s plan gets the more attractive colour</li>
+  <li>R-61: task file for warmer website panel colours</li>
+  <li>R-41-A11: the footer&#x27;s Release notes link shows</li>
+  <li>UI-113: ux.md says the strip is an overlay, and the luminance seen in a real window</li>
+  <li>UI-113: the strip, a SwiftUI overlay at the window&#x27;s top edge, above the toolbar</li>
+  <li>UI-113: ux.md&#x27;s look: the strip, the glow and the rule for the strip&#x27;s movement</li>
+  <li>UI-113: renders of the strip and glow, and a retargeting step in the navigation tour</li>
+  <li>UI-113: a colour&#x27;s page takes its own swatch for the strip and the glow</li>
+  <li>UI-113: the glow from the strip&#x27;s colours, in OKLCH, over the detail column</li>
+  <li>UI-113: narrow strip centred on the window, colour pages from the swatch</li>
+  <li>UI-113: UX note and mockups for the main window&#x27;s gel strip</li>
+  <li>UI-113: targeted for beta 5</li>
+  <li>UI-113: task file for the main window&#x27;s gel strip mockups</li>
+  <li>UI-112: top-align the welcome wash so the strip stays whole on macOS 15</li>
+  <li>UI-112: tick the acceptance boxes the build covers</li>
+  <li>UI-112: the welcome window&#x27;s gel strip is 6 pt at the top edge, full strength</li>
+  <li>UI-112: UX note on the 6 pt gel strip</li>
+  <li>UI-112: task file (the welcome window&#x27;s gel strip, 6 pt)</li>
+  <li>UI-111: the coordinate space&#x27;s name is nonisolated (a Sendable closure reads it)</li>
+  <li>UI-111: tick the acceptance boxes</li>
+  <li>UI-111: steady digits on the import&#x27;s live counts</li>
+  <li>UI-111: the stacked offer&#x27;s status and Parameters… start at the checkbox label&#x27;s text edge</li>
+  <li>T-23: task files say done where their PRs merged</li>
+  <li>UI-111: H-14 polish, the stacked offer&#x27;s alignment and steady import counts (task file)</li>
+  <li>Version 0.4 for beta 4</li>
+  <li>P-20: performance note splits the sheet&#x27;s open between AppKit&#x27;s slide and the form; task done</li>
+  <li>P-20: the import sheet&#x27;s step counts are kept with the draft, and the reading bar&#x27;s VoiceOver label follows its step text</li>
+  <li>ux.md: H-14, same-type offers by colour set</li>
+  <li>H-14: open the one-sided parameters when nothing is shared or a match is stored; localise the fallback name</li>
+  <li>H-14: restore Package.resolved as on main</li>
+  <li>H-14: localise the Parameters section&#x27;s strings</li>
+  <li>H-14: tests for the import-side recorded flag</li>
+  <li>H-14: US English entries for the Parameters text</li>
+  <li>H-14: tick the acceptance boxes</li>
+  <li>H-14: spec and Help for matching lights by their colour parameters</li>
+  <li>H-14: one Parameters section for same-type offers and Families</li>
+  <li>H-14: parts and shared parameters for the Parameters section</li>
+  <li>H-14: spec for the colour set and linking across parts; tick the model boxes</li>
+  <li>H-14: tests for the offers across the light shapes; designer-file links by colour set</li>
+  <li>H-14: Prefer and Build read and write a linked light through its colour set</li>
+  <li>H-14: the comparison reads a linked light&#x27;s parts through its colour set</li>
+  <li>H-14: offers and links compare colour sets, not cell types by name</li>
+  <li>P-19: check line</li>
+  <li>P-19: the reviewer&#x27;s tests: an unaddressed holder added and taken out, another threshold, a reclassified type; why the memo keeps every threshold</li>
+  <li>P-19: the writing bar&#x27;s line drops its count, and the bar is drawn at 0 from the hand-off</li>
+  <li>H-14: the colour set, a light&#x27;s colour as one set of non-conflicting parameters</li>
+  <li>P-19: the reading bar&#x27;s shares follow the faster scans, and the timing tool times them</li>
+  <li>P-19: the import&#x27;s stages before and after, in the performance notes and the spec</li>
+  <li>H-14: UX note for the palettes&#x27; parts and one-sided parameters</li>
+  <li>P-19: the writing bar weighs its steps, and renders of the import&#x27;s wait</li>
+  <li>H-14: the colour set takes the parts the palettes record; P-20: task file</li>
+  <li>H-14: UX note revised for the colour set</li>
+  <li>P-19: a bar in the Palettes footer in place of the count while Continue or Import waits, and one delay through to the Shows screen&#x27;s writing bar</li>
+  <li>P-19: classify a type&#x27;s colour parameters once, share a show&#x27;s By-Type values across the sheet&#x27;s stages and the write, and work them out on all cores</li>
+  <li>H-14: lights are matched and linked by their colour set</li>
+  <li>UI-110: live check result and check.sh box in the task file</li>
+  <li>H-14: UX addendum (cells in the Same type as picker, matching a cell link)</li>
+  <li>H-14: a single type can be linked to any cell by hand</li>
+  <li>H-14: UX note (Fixture Types stage and Families wording for cell links)</li>
+  <li>P-18: the import&#x27;s reading bar covers the whole wait before the sheet</li>
+  <li>Put the unticked source first on a section&#x27;s box, so a click from mixed reaches the one that applies it (UI-110)</li>
+  <li>H-14: task file (same-type offers for multicell lights)</li>
+  <li>Tick or untick a whole section on the import&#x27;s Palettes step (UI-110)</li>
+  <li>P-19: UX note for step 4 (the import&#x27;s wait bar in the footer, in place of the count)</li>
+  <li>P-19: the wait after Import on the Palettes stage gets a progress bar</li>
+  <li>UI-110: UX note (header checkbox, selected headers, VoiceOver, Help)</li>
+  <li>P-19: task file (importing a large export is fast)</li>
+  <li>UI-110: task file (tick or untick a whole palette section)</li>
+  <li>P-18: task file (the import&#x27;s reading bar covers the whole wait)</li>
+  <li>T-22: OpenScreen and OpenTemplateFromShow compare equal across body passes; the warnings gate resolves the checkout path</li>
+  <li>Beta welcome and thank-you: the licence comes in its own email (R-60)</li>
+  <li>T-22: leave TrustedClock.swift to T-17</li>
+  <li>R-60: a repeat send says Resend dropped it, --again sends on purpose, EOF at the question is no</li>
+  <li>T-22: no warnings from our sources, and check.sh fails on one</li>
+  <li>R-60: issue-licence emails the licence it issues (--send, --preview, send &lt;file&gt;)</li>
+  <li>UI-109: renders from a show of kept colours, US English, the spec, and the task file</li>
+  <li>AB-06: an admin panel for licences, across apps</li>
+  <li>T-21: check line ticked</li>
+  <li>R-60: the Resend key comes from the vault</li>
+  <li>R-60: task file (issue-licence emails the licence)</li>
+  <li>T-21: task file says what xcodebuild leaves and when; CLAUDE.md: every SwiftPM command takes the flag</li>
+  <li>T-21: task file ticked</li>
+  <li>T-21: scripts resolve the package from Package.resolved, so a run leaves the file as committed; .wrangler/ is ignored</li>
+  <li>T-22: task file (no build warnings, and check.sh keeps it that way)</li>
+  <li>UI-109 (work in progress): a kept colour&#x27;s row says what holds it, from L-05&#x27;s rule; renders not yet passing</li>
+  <li>release-verify.sh says No such file instead of failing two checks on a missing DMG</li>
+  <li>TrustedClock reads the boot session without the deprecated String(cString:)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.4/Gelato-0.4.dmg" sparkle:edSignature="WTNKmZW1d6f3Pw+yLvmcL6HP7MYuukMXE8SPq0jTnsppNx66a/viZj5/HsnjWCRoMCK5yTRVRT6aMuMZODEjBg==" length="22121800" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.3</title>
       <pubDate>Mon, 26 Oct 2026 21:48:54 GMT</pubDate>
       <sparkle:version>3677</sparkle:version>
