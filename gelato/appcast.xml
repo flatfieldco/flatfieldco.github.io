@@ -3,6 +3,25 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.5.1</title>
+      <pubDate>Thu, 29 Oct 2026 11:28:44 GMT</pubDate>
+      <sparkle:version>3976</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-10-29</gelatoBuildDate>
+      <description><![CDATA[<h2>Gelato 0.5.1 (beta)</h2>
+<p>0.5 went out as a regular release by mistake. 0.5.1 is the beta it should have been, plus one small change.</p>
+<ul>
+  <li>Settings › Updates shows “· beta”, and feedback reports the beta channel.</li>
+  <li>Rig checks are off again, as in earlier betas.</li>
+  <li>The welcome window’s gel strip is now 3 pt.</li>
+  <li>If you installed 0.5, turn on “Get beta updates” to keep getting betas.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.5.1/Gelato-0.5.1.dmg" sparkle:edSignature="DCn/2BmMa9WWXyRdB+CzergiGaOBe1V3vtyNgzz6WFknOFnPyE+gZQYXbJ0TAVH8UDEsMO8c8umvtzn5RoFRAA==" length="22534250" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.5</title>
       <pubDate>Thu, 29 Oct 2026 10:56:50 GMT</pubDate>
       <sparkle:version>3970</sparkle:version>
