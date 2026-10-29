@@ -23,12 +23,12 @@
       <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/exeunt_0.1.865_arm64.deb" length="2411784" type="application/octet-stream" sparkle:edSignature="kcosiP/Bx2pnioeP75/VygJ/849VTggRFQ3jFgvtlkKTe0tp5HXx9szmul7c52QoxzqEuG7cI5oGbhA/uHI6CA=="/>
     </item>
     <item>
-      <title>Exeunt 0.1.865</title>
-      <sparkle:version>865</sparkle:version>
-      <sparkle:shortVersionString>0.1.865</sparkle:shortVersionString>
+      <title>Exeunt 0.2.0</title>
+      <sparkle:version>1013</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:os>macos</sparkle:os>
       <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/Exeunt-0.1.865.dmg" length="15239676" type="application/octet-stream" sparkle:edSignature="Ju7qkHWKzmRCCb066eYig+kJM0LYGExBsP6U/0dhHmpy737qZxdZ7HL6OGIyRWmZnWcTnltWJXHzY84nKSJqCg=="/>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.2.0/Exeunt-0.2.0.dmg" length="15229683" type="application/octet-stream" sparkle:edSignature="mw9SSFT+KTjNVDV1ckHXhimlTC7ETkJc0KkCrU+A8XwVEPHG/HhUWQt+UC3OaRmb9HR5KPTGL/5kP0Nob4llBQ=="/>
     </item>
     <item>
       <title>Exeunt 0.1.865</title>
