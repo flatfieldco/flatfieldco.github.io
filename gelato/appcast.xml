@@ -3,6 +3,102 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.5</title>
+      <pubDate>Thu, 29 Oct 2026 10:56:50 GMT</pubDate>
+      <sparkle:version>3970</sparkle:version>
+      <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <gelatoBuildDate>2026-10-29</gelatoBuildDate>
+      <description><![CDATA[<ul>
+  <li>Version 0.5 for beta 5</li>
+  <li>UI-116b: check line</li>
+  <li>UI-116b: measure the pop-up&#x27;s chrome on the main actor; check.sh sees warnings from a checkout under /private</li>
+  <li>UI-116: check line</li>
+  <li>UI-116: group and measure the list off the main thread; a bounded width for an unbounded proposal</li>
+  <li>R-62: the privacy wording says the hash is different every day; the sender&#x27;s cost note says main-actor work is negligible</li>
+  <li>R-62: Settings ▸ Updates ▸ Privacy: Send an anonymous daily check-in, on by default; off makes no request</li>
+  <li>R-62: Workers invocation logs off in every environment; a 429 logs one fixed line with no address</li>
+  <li>R-62: a 429, redirect, 405, 400 or 204 waits until tomorrow; only no answer or a 5xx is retried at the next look</li>
+  <li>R-62: a Settings switch for the daily check-in, on by default; 429, 3xx and 405 wait a day</li>
+  <li>UI-116: check line</li>
+  <li>R-62: the task file ticks the Worker route</li>
+  <li>R-62: the Worker counts the daily check-in through worker-kit&#x27;s ping handler, with a per-IP limiter and the prune cron</li>
+  <li>UI-116: the column from measures taken with the read, the offered row width, and a resize render (re-review)</li>
+  <li>R-62: the check-in test reads the body in steps</li>
+  <li>R-62: a per-IP rate-limit binding on /gelato/ping until the edge rule is on; the IP is the limiter&#x27;s key only</li>
+  <li>UI-116: check line</li>
+  <li>UI-120: tick the task&#x27;s boxes; the legend&#x27;s comment says when the count shows</li>
+  <li>R-62: the check-in&#x27;s sources build without warnings</li>
+  <li>UI-116: the column from the names a pop-up fits beside; a longer name stacks on its own (the UX lead, on #902)</li>
+  <li>R-62: the spec and Help say what the Worker keeps and for how long</li>
+  <li>UI-116: check line</li>
+  <li>R-62: the ping is kept in D1 for 90 days, behind a rate limit</li>
+  <li>R-62: an anonymous daily check-in counts every install</li>
+  <li>UI-116: check line</li>
+  <li>UI-120: the colour map&#x27;s caption drops the count the title gives</li>
+  <li>R-62: task file, an anonymous daily check-in counts every install</li>
+  <li>UI-120: task file, the colour map&#x27;s caption drops the page&#x27;s count</li>
+  <li>UI-116: the title column measured with the read, the shown rows memoised, the colour&#x27;s page and back the same visit; renders of four types and a long name</li>
+  <li>UI-116: check line</li>
+  <li>UI-118: delete the dead CompareView.subtitle; its tests count with counts</li>
+  <li>UI-116: tick the renders and check boxes</li>
+  <li>UI-118: read only the components of the sections&#x27; own families&#x27; lights; restore Package.resolved</li>
+  <li>UI-117: a gel the catalogue only has a maker&#x27;s name for shows it beside the code</li>
+  <li>UI-118: docs describe the named followers detail and the never-cut list (check-line-only)</li>
+  <li>UI-118: the followers node names the lights with no version and never cuts a name</li>
+  <li>UI-116: check line</li>
+  <li>UI-116: one pop-up column for the whole list, &quot;chosen&quot; as on the colour page, the colour page&#x27;s choices through VersionSettle, and a review window shot</li>
+  <li>UI-118: a family&#x27;s section on the colour&#x27;s page names the lead and the followers</li>
+  <li>UI-116: check line</li>
+  <li>UI-118: a family&#x27;s lead and follower lights, and the one-palette-on-two-lights wording</li>
+  <li>UI-116: choose a version in the To Choose row</li>
+  <li>UI-117: task file: acceptance ticked, renders awaiting the UX lead (check-line-only)</li>
+  <li>UI-117: the colour page&#x27;s name and counts as a big title on the page</li>
+  <li>UI-119: task file: neutral name, no author in a heading, acceptance ticked (check-line-only)</li>
+  <li>UI-119: rows sit 10 pt inside the glass; tests lay the page out below the window&#x27;s minimum</li>
+  <li>UI-119: a colour page&#x27;s glass sits the lists&#x27; margin from the detail&#x27;s edges</li>
+  <li>UI-119: docs/ux.md: a colour page&#x27;s sections fill its width</li>
+  <li>UI-119: a light scrolls sideways only when even a wrapped Show column won&#x27;t fit</li>
+  <li>UI-119: a colour page&#x27;s sections fill the page&#x27;s width</li>
+  <li>UI-119: the UX note and what the minimum&#x27;s cause was</li>
+  <li>UI-119: a colour&#x27;s page keeps the window&#x27;s minimum; scripts/window-minimum.sh asks every screen&#x27;s real window for 300 x 300</li>
+  <li>L-07: check line</li>
+  <li>L-07: the title comment says what window shots showed; the UX lead&#x27;s box ticked</li>
+  <li>L-07: the alerts render has a light leaving the library, alone and beside one that stays</li>
+  <li>L-07: GELATO_OPEN_SHOW opens a show&#x27;s page in Debug; a light&#x27;s other shows drop under it whole, and its caption never starts a line with &quot;·&quot;</li>
+  <li>UI-119: task file, the window keeps its minimum and a page&#x27;s sections fill its width</li>
+  <li>L-07: one mix reads &quot;Its mix … goes&quot;; a colour&#x27;s caption goes under its name when both don&#x27;t fit (WIP: lights row, renders, check to come)</li>
+  <li>UI-115: docs say only what this PR builds; the animation moves to UI-115b</li>
+  <li>UI-118: the family part is a diagram in the node style</li>
+  <li>L-07: a chosen light is only a filter until the lights list has the keys; beam values read for these lights only; known limits</li>
+  <li>UI-118: three layouts for a family&#x27;s lights (second UX note)</li>
+  <li>L-07: check line</li>
+  <li>L-07: a show&#x27;s page, a browser of its lights and colours, deleting from one show</li>
+  <li>UI-116, UI-117, UI-118: the picks for the colour page; UI-118&#x27;s header gets a second layout note</li>
+  <li>ux.md: a page&#x27;s subject goes in its header, never in the toolbar subtitle</li>
+  <li>UI-116, UI-117, UI-118: UX notes and mockups</li>
+  <li>UI-118: the page always names the light a family&#x27;s colour comes from</li>
+  <li>L-07: a show&#x27;s colours and lights, and deleting them from one show</li>
+  <li>UI-115: the NSOutlineView rebuild is UI-115b, for a later beta</li>
+  <li>UI-115: record the NSOutlineView decision in the task file</li>
+  <li>L-07: the show&#x27;s page is a browser; deleting with a light chosen takes that light&#x27;s mix</li>
+  <li>ux.md: a subtitle never holds the only copy of anything</li>
+  <li>L-07: the UX note (a show&#x27;s page, pushed in Shows)</li>
+  <li>UI-118: the chosen version leads a family</li>
+  <li>UI-118: what the library does today with a family&#x27;s mixes</li>
+  <li>UI-117, UI-118: task files for the colour page&#x27;s title and a family&#x27;s lead light</li>
+  <li>UI-115: palette groups start closed when nothing in them is ticked</li>
+  <li>UI-116: task file for choosing a version right in To Choose</li>
+  <li>UI-115: task file for the import&#x27;s palette groups opening like a Mac outline</li>
+  <li>L-07: task file for a show&#x27;s page of colours and lights</li>
+  <li>UI-114: the main window&#x27;s gel strip is 3 pt, leaving a 5 pt gap above the toolbar pills (option A)</li>
+  <li>T-20: the vault&#x27;s temp files are deleted when the script ends, and the test checks the folder they are made in</li>
+  <li>UI-114: the main window&#x27;s strip clears the toolbar pills (UX note and mockups)</li>
+  <li>T-20: release.sh, issue-licence and the Worker secrets read their keys from the vault</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.5/Gelato-0.5.dmg" sparkle:edSignature="LVy5/4os8WBQZj3Rf3vvyedSskBt3VKRQAfd+3ryIE1Kfa8CJOYgDi/ee9DDkxBIPTLqVryw7kI+gp0L7RHwAg==" length="22548477" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.4</title>
       <pubDate>Wed, 28 Oct 2026 16:59:09 GMT</pubDate>
       <sparkle:version>3838</sparkle:version>
