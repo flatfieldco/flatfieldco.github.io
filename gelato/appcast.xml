@@ -28,92 +28,17 @@
       <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <gelatoBuildDate>2026-10-29</gelatoBuildDate>
-      <description><![CDATA[<ul>
-  <li>Version 0.5 for beta 5</li>
-  <li>UI-116b: check line</li>
-  <li>UI-116b: measure the pop-up&#x27;s chrome on the main actor; check.sh sees warnings from a checkout under /private</li>
-  <li>UI-116: check line</li>
-  <li>UI-116: group and measure the list off the main thread; a bounded width for an unbounded proposal</li>
-  <li>R-62: the privacy wording says the hash is different every day; the sender&#x27;s cost note says main-actor work is negligible</li>
-  <li>R-62: Settings ▸ Updates ▸ Privacy: Send an anonymous daily check-in, on by default; off makes no request</li>
-  <li>R-62: Workers invocation logs off in every environment; a 429 logs one fixed line with no address</li>
-  <li>R-62: a 429, redirect, 405, 400 or 204 waits until tomorrow; only no answer or a 5xx is retried at the next look</li>
-  <li>R-62: a Settings switch for the daily check-in, on by default; 429, 3xx and 405 wait a day</li>
-  <li>UI-116: check line</li>
-  <li>R-62: the task file ticks the Worker route</li>
-  <li>R-62: the Worker counts the daily check-in through worker-kit&#x27;s ping handler, with a per-IP limiter and the prune cron</li>
-  <li>UI-116: the column from measures taken with the read, the offered row width, and a resize render (re-review)</li>
-  <li>R-62: the check-in test reads the body in steps</li>
-  <li>R-62: a per-IP rate-limit binding on /gelato/ping until the edge rule is on; the IP is the limiter&#x27;s key only</li>
-  <li>UI-116: check line</li>
-  <li>UI-120: tick the task&#x27;s boxes; the legend&#x27;s comment says when the count shows</li>
-  <li>R-62: the check-in&#x27;s sources build without warnings</li>
-  <li>UI-116: the column from the names a pop-up fits beside; a longer name stacks on its own (the UX lead, on #902)</li>
-  <li>R-62: the spec and Help say what the Worker keeps and for how long</li>
-  <li>UI-116: check line</li>
-  <li>R-62: the ping is kept in D1 for 90 days, behind a rate limit</li>
-  <li>R-62: an anonymous daily check-in counts every install</li>
-  <li>UI-116: check line</li>
-  <li>UI-120: the colour map&#x27;s caption drops the count the title gives</li>
-  <li>R-62: task file, an anonymous daily check-in counts every install</li>
-  <li>UI-120: task file, the colour map&#x27;s caption drops the page&#x27;s count</li>
-  <li>UI-116: the title column measured with the read, the shown rows memoised, the colour&#x27;s page and back the same visit; renders of four types and a long name</li>
-  <li>UI-116: check line</li>
-  <li>UI-118: delete the dead CompareView.subtitle; its tests count with counts</li>
-  <li>UI-116: tick the renders and check boxes</li>
-  <li>UI-118: read only the components of the sections&#x27; own families&#x27; lights; restore Package.resolved</li>
-  <li>UI-117: a gel the catalogue only has a maker&#x27;s name for shows it beside the code</li>
-  <li>UI-118: docs describe the named followers detail and the never-cut list (check-line-only)</li>
-  <li>UI-118: the followers node names the lights with no version and never cuts a name</li>
-  <li>UI-116: check line</li>
-  <li>UI-116: one pop-up column for the whole list, &quot;chosen&quot; as on the colour page, the colour page&#x27;s choices through VersionSettle, and a review window shot</li>
-  <li>UI-118: a family&#x27;s section on the colour&#x27;s page names the lead and the followers</li>
-  <li>UI-116: check line</li>
-  <li>UI-118: a family&#x27;s lead and follower lights, and the one-palette-on-two-lights wording</li>
-  <li>UI-116: choose a version in the To Choose row</li>
-  <li>UI-117: task file: acceptance ticked, renders awaiting the UX lead (check-line-only)</li>
-  <li>UI-117: the colour page&#x27;s name and counts as a big title on the page</li>
-  <li>UI-119: task file: neutral name, no author in a heading, acceptance ticked (check-line-only)</li>
-  <li>UI-119: rows sit 10 pt inside the glass; tests lay the page out below the window&#x27;s minimum</li>
-  <li>UI-119: a colour page&#x27;s glass sits the lists&#x27; margin from the detail&#x27;s edges</li>
-  <li>UI-119: docs/ux.md: a colour page&#x27;s sections fill its width</li>
-  <li>UI-119: a light scrolls sideways only when even a wrapped Show column won&#x27;t fit</li>
-  <li>UI-119: a colour page&#x27;s sections fill the page&#x27;s width</li>
-  <li>UI-119: the UX note and what the minimum&#x27;s cause was</li>
-  <li>UI-119: a colour&#x27;s page keeps the window&#x27;s minimum; scripts/window-minimum.sh asks every screen&#x27;s real window for 300 x 300</li>
-  <li>L-07: check line</li>
-  <li>L-07: the title comment says what window shots showed; the UX lead&#x27;s box ticked</li>
-  <li>L-07: the alerts render has a light leaving the library, alone and beside one that stays</li>
-  <li>L-07: GELATO_OPEN_SHOW opens a show&#x27;s page in Debug; a light&#x27;s other shows drop under it whole, and its caption never starts a line with &quot;·&quot;</li>
-  <li>UI-119: task file, the window keeps its minimum and a page&#x27;s sections fill its width</li>
-  <li>L-07: one mix reads &quot;Its mix … goes&quot;; a colour&#x27;s caption goes under its name when both don&#x27;t fit (WIP: lights row, renders, check to come)</li>
-  <li>UI-115: docs say only what this PR builds; the animation moves to UI-115b</li>
-  <li>UI-118: the family part is a diagram in the node style</li>
-  <li>L-07: a chosen light is only a filter until the lights list has the keys; beam values read for these lights only; known limits</li>
-  <li>UI-118: three layouts for a family&#x27;s lights (second UX note)</li>
-  <li>L-07: check line</li>
-  <li>L-07: a show&#x27;s page, a browser of its lights and colours, deleting from one show</li>
-  <li>UI-116, UI-117, UI-118: the picks for the colour page; UI-118&#x27;s header gets a second layout note</li>
-  <li>ux.md: a page&#x27;s subject goes in its header, never in the toolbar subtitle</li>
-  <li>UI-116, UI-117, UI-118: UX notes and mockups</li>
-  <li>UI-118: the page always names the light a family&#x27;s colour comes from</li>
-  <li>L-07: a show&#x27;s colours and lights, and deleting them from one show</li>
-  <li>UI-115: the NSOutlineView rebuild is UI-115b, for a later beta</li>
-  <li>UI-115: record the NSOutlineView decision in the task file</li>
-  <li>L-07: the show&#x27;s page is a browser; deleting with a light chosen takes that light&#x27;s mix</li>
-  <li>ux.md: a subtitle never holds the only copy of anything</li>
-  <li>L-07: the UX note (a show&#x27;s page, pushed in Shows)</li>
-  <li>UI-118: the chosen version leads a family</li>
-  <li>UI-118: what the library does today with a family&#x27;s mixes</li>
-  <li>UI-117, UI-118: task files for the colour page&#x27;s title and a family&#x27;s lead light</li>
-  <li>UI-115: palette groups start closed when nothing in them is ticked</li>
-  <li>UI-116: task file for choosing a version right in To Choose</li>
-  <li>UI-115: task file for the import&#x27;s palette groups opening like a Mac outline</li>
-  <li>L-07: task file for a show&#x27;s page of colours and lights</li>
-  <li>UI-114: the main window&#x27;s gel strip is 3 pt, leaving a 5 pt gap above the toolbar pills (option A)</li>
-  <li>T-20: the vault&#x27;s temp files are deleted when the script ends, and the test checks the folder they are made in</li>
-  <li>UI-114: the main window&#x27;s strip clears the toolbar pills (UX note and mockups)</li>
-  <li>T-20: release.sh, issue-licence and the Worker secrets read their keys from the vault</li>
+      <description><![CDATA[<h2>Gelato 0.5 (beta)</h2>
+<p>A page for each show, a fuller colour page, and an anonymous daily check-in you can turn off.</p>
+<ul>
+  <li>Shows: open a show to browse its lights and colours, and delete a colour or a light from that show alone.</li>
+  <li>A colour’s page has its name as a big title, fills the window’s width, and keeps the window’s minimum size.</li>
+  <li>For a family of lights, a colour’s page names the light the colour comes from and the lights that follow it.</li>
+  <li>Choose a version right in the To Choose list.</li>
+  <li>A gel the catalogue knows only by its maker’s name shows that name beside the code.</li>
+  <li>On the import’s Palettes step, groups with nothing ticked start closed.</li>
+  <li>The main window’s gel strip is thinner and clears the toolbar.</li>
+  <li>Settings ▸ Updates ▸ Privacy: Gelato sends an anonymous check-in once a day, so we can count installs. It sends a random id made on your Mac, Gelato’s and macOS’s versions, the kind of Mac and the kind of licence: nothing about you, your shows or your library. The id is kept only as a code that changes every day, so one Mac can’t be followed from day to day, and check-ins are deleted after 90 days. Your IP address is used only to limit how often a Mac can check in, and isn’t kept. Turn it off and nothing is sent.</li>
 </ul>]]></description>
       <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.5/Gelato-0.5.dmg" sparkle:edSignature="LVy5/4os8WBQZj3Rf3vvyedSskBt3VKRQAfd+3ryIE1Kfa8CJOYgDi/ee9DDkxBIPTLqVryw7kI+gp0L7RHwAg==" length="22548477" type="application/x-apple-diskimage"/>
     </item>
@@ -125,108 +50,16 @@
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:channel>beta</sparkle:channel>
       <gelatoBuildDate>2026-10-28</gelatoBuildDate>
-      <description><![CDATA[<ul>
-  <li>R-61b: Show Kit&#x27;s closing card is unlit slate; the Closing Card Rule covers any page&#x27;s closing card</li>
-  <li>R-61: inner-page wash back to lavender (the band&#x27;s light); DESIGN.md contrast figure 5.8:1</li>
-  <li>R-61: DESIGN.md says deep orange wherever it means Lee 158</li>
-  <li>R-61: DESIGN.md step-cards list says deep orange</li>
-  <li>R-61: site panel colours: deep orange, yellow, cyan, pink; unlit closing card</li>
-  <li>R-61: the colour pick, Pro on deep orange and an unlit closing card</li>
-  <li>UI-113: ux.md explains cap and windowCap together; Glow.swift&#x27;s comments name the cap each solve uses</li>
-  <li>R-61: set D and the card after the plans</li>
-  <li>R-41-A11: check.sh line recorded</li>
-  <li>UI-113: docs and task file for the toolbar, the real-window numbers and full screen</li>
-  <li>UI-113: see-through window toolbar; dark glow solved against the real window&#x27;s reading</li>
-  <li>R-50: both tabs of the wording sheet are filled</li>
-  <li>R-41-A11: the Release notes link stays hidden until launch</li>
-  <li>R-41-A11: task file ticked, check.sh line recorded</li>
-  <li>R-61: Pro&#x27;s plan gets the more attractive colour</li>
-  <li>R-61: task file for warmer website panel colours</li>
-  <li>R-41-A11: the footer&#x27;s Release notes link shows</li>
-  <li>UI-113: ux.md says the strip is an overlay, and the luminance seen in a real window</li>
-  <li>UI-113: the strip, a SwiftUI overlay at the window&#x27;s top edge, above the toolbar</li>
-  <li>UI-113: ux.md&#x27;s look: the strip, the glow and the rule for the strip&#x27;s movement</li>
-  <li>UI-113: renders of the strip and glow, and a retargeting step in the navigation tour</li>
-  <li>UI-113: a colour&#x27;s page takes its own swatch for the strip and the glow</li>
-  <li>UI-113: the glow from the strip&#x27;s colours, in OKLCH, over the detail column</li>
-  <li>UI-113: narrow strip centred on the window, colour pages from the swatch</li>
-  <li>UI-113: UX note and mockups for the main window&#x27;s gel strip</li>
-  <li>UI-113: targeted for beta 5</li>
-  <li>UI-113: task file for the main window&#x27;s gel strip mockups</li>
-  <li>UI-112: top-align the welcome wash so the strip stays whole on macOS 15</li>
-  <li>UI-112: tick the acceptance boxes the build covers</li>
-  <li>UI-112: the welcome window&#x27;s gel strip is 6 pt at the top edge, full strength</li>
-  <li>UI-112: UX note on the 6 pt gel strip</li>
-  <li>UI-112: task file (the welcome window&#x27;s gel strip, 6 pt)</li>
-  <li>UI-111: the coordinate space&#x27;s name is nonisolated (a Sendable closure reads it)</li>
-  <li>UI-111: tick the acceptance boxes</li>
-  <li>UI-111: steady digits on the import&#x27;s live counts</li>
-  <li>UI-111: the stacked offer&#x27;s status and Parameters… start at the checkbox label&#x27;s text edge</li>
-  <li>T-23: task files say done where their PRs merged</li>
-  <li>UI-111: H-14 polish, the stacked offer&#x27;s alignment and steady import counts (task file)</li>
-  <li>Version 0.4 for beta 4</li>
-  <li>P-20: performance note splits the sheet&#x27;s open between AppKit&#x27;s slide and the form; task done</li>
-  <li>P-20: the import sheet&#x27;s step counts are kept with the draft, and the reading bar&#x27;s VoiceOver label follows its step text</li>
-  <li>ux.md: H-14, same-type offers by colour set</li>
-  <li>H-14: open the one-sided parameters when nothing is shared or a match is stored; localise the fallback name</li>
-  <li>H-14: restore Package.resolved as on main</li>
-  <li>H-14: localise the Parameters section&#x27;s strings</li>
-  <li>H-14: tests for the import-side recorded flag</li>
-  <li>H-14: US English entries for the Parameters text</li>
-  <li>H-14: tick the acceptance boxes</li>
-  <li>H-14: spec and Help for matching lights by their colour parameters</li>
-  <li>H-14: one Parameters section for same-type offers and Families</li>
-  <li>H-14: parts and shared parameters for the Parameters section</li>
-  <li>H-14: spec for the colour set and linking across parts; tick the model boxes</li>
-  <li>H-14: tests for the offers across the light shapes; designer-file links by colour set</li>
-  <li>H-14: Prefer and Build read and write a linked light through its colour set</li>
-  <li>H-14: the comparison reads a linked light&#x27;s parts through its colour set</li>
-  <li>H-14: offers and links compare colour sets, not cell types by name</li>
-  <li>P-19: check line</li>
-  <li>P-19: the reviewer&#x27;s tests: an unaddressed holder added and taken out, another threshold, a reclassified type; why the memo keeps every threshold</li>
-  <li>P-19: the writing bar&#x27;s line drops its count, and the bar is drawn at 0 from the hand-off</li>
-  <li>H-14: the colour set, a light&#x27;s colour as one set of non-conflicting parameters</li>
-  <li>P-19: the reading bar&#x27;s shares follow the faster scans, and the timing tool times them</li>
-  <li>P-19: the import&#x27;s stages before and after, in the performance notes and the spec</li>
-  <li>H-14: UX note for the palettes&#x27; parts and one-sided parameters</li>
-  <li>P-19: the writing bar weighs its steps, and renders of the import&#x27;s wait</li>
-  <li>H-14: the colour set takes the parts the palettes record; P-20: task file</li>
-  <li>H-14: UX note revised for the colour set</li>
-  <li>P-19: a bar in the Palettes footer in place of the count while Continue or Import waits, and one delay through to the Shows screen&#x27;s writing bar</li>
-  <li>P-19: classify a type&#x27;s colour parameters once, share a show&#x27;s By-Type values across the sheet&#x27;s stages and the write, and work them out on all cores</li>
-  <li>H-14: lights are matched and linked by their colour set</li>
-  <li>UI-110: live check result and check.sh box in the task file</li>
-  <li>H-14: UX addendum (cells in the Same type as picker, matching a cell link)</li>
-  <li>H-14: a single type can be linked to any cell by hand</li>
-  <li>H-14: UX note (Fixture Types stage and Families wording for cell links)</li>
-  <li>P-18: the import&#x27;s reading bar covers the whole wait before the sheet</li>
-  <li>Put the unticked source first on a section&#x27;s box, so a click from mixed reaches the one that applies it (UI-110)</li>
-  <li>H-14: task file (same-type offers for multicell lights)</li>
-  <li>Tick or untick a whole section on the import&#x27;s Palettes step (UI-110)</li>
-  <li>P-19: UX note for step 4 (the import&#x27;s wait bar in the footer, in place of the count)</li>
-  <li>P-19: the wait after Import on the Palettes stage gets a progress bar</li>
-  <li>UI-110: UX note (header checkbox, selected headers, VoiceOver, Help)</li>
-  <li>P-19: task file (importing a large export is fast)</li>
-  <li>UI-110: task file (tick or untick a whole palette section)</li>
-  <li>P-18: task file (the import&#x27;s reading bar covers the whole wait)</li>
-  <li>T-22: OpenScreen and OpenTemplateFromShow compare equal across body passes; the warnings gate resolves the checkout path</li>
-  <li>Beta welcome and thank-you: the licence comes in its own email (R-60)</li>
-  <li>T-22: leave TrustedClock.swift to T-17</li>
-  <li>R-60: a repeat send says Resend dropped it, --again sends on purpose, EOF at the question is no</li>
-  <li>T-22: no warnings from our sources, and check.sh fails on one</li>
-  <li>R-60: issue-licence emails the licence it issues (--send, --preview, send &lt;file&gt;)</li>
-  <li>UI-109: renders from a show of kept colours, US English, the spec, and the task file</li>
-  <li>AB-06: an admin panel for licences, across apps</li>
-  <li>T-21: check line ticked</li>
-  <li>R-60: the Resend key comes from the vault</li>
-  <li>R-60: task file (issue-licence emails the licence)</li>
-  <li>T-21: task file says what xcodebuild leaves and when; CLAUDE.md: every SwiftPM command takes the flag</li>
-  <li>T-21: task file ticked</li>
-  <li>T-21: scripts resolve the package from Package.resolved, so a run leaves the file as committed; .wrangler/ is ignored</li>
-  <li>T-22: task file (no build warnings, and check.sh keeps it that way)</li>
-  <li>UI-109 (work in progress): a kept colour&#x27;s row says what holds it, from L-05&#x27;s rule; renders not yet passing</li>
-  <li>release-verify.sh says No such file instead of failing two checks on a missing DMG</li>
-  <li>TrustedClock reads the boot session without the deprecated String(cString:)</li>
+      <description><![CDATA[<h2>Gelato 0.4 (beta)</h2>
+<p>Faster imports, multicell lights matched by their colour, and a gel strip in the main window.</p>
+<ul>
+  <li>Importing a large export is much faster, and the progress bar covers the whole wait, including after Import on the Palettes step.</li>
+  <li>On the Palettes step, tick or untick a whole section with its header’s box.</li>
+  <li>The import’s counts no longer jitter as they change.</li>
+  <li>Lights are matched by the colour parameters they have, so a multicell light’s cells can share a single light’s colours. You can also link a single light to any cell yourself.</li>
+  <li>A Parameters section shows which colour parameters two lights share, and which only one has.</li>
+  <li>The main window has a gel strip along the top, and a colour’s page takes its own colour for the strip and a soft glow.</li>
+  <li>The welcome window’s gel strip is taller and stays whole on macOS 15.</li>
 </ul>]]></description>
       <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.4/Gelato-0.4.dmg" sparkle:edSignature="WTNKmZW1d6f3Pw+yLvmcL6HP7MYuukMXE8SPq0jTnsppNx66a/viZj5/HsnjWCRoMCK5yTRVRT6aMuMZODEjBg==" length="22121800" type="application/x-apple-diskimage"/>
     </item>
@@ -272,56 +105,17 @@
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:channel>beta</sparkle:channel>
       <gelatoBuildDate>2026-10-26</gelatoBuildDate>
-      <description><![CDATA[<ul>
-  <li>R-56: task file (Spark corner fix in the licence emails)</li>
-  <li>Launch plan: seven more places to post</li>
-  <li>Launch plan: three places to post, with their codes</li>
-  <li>R-54: worker-kit v0.2.0</li>
-  <li>R-55: tick the check.sh box</li>
-  <li>R-54: licence emails on email template version 2 (worker-kit eb5536f until v0.2.0 is tagged)</li>
-  <li>R-55: a darker glass shelf on the DMG</li>
-  <li>R-54: the darker shelf and the live header; R-55: the DMG&#x27;s darker shelf</li>
-  <li>R-54: licence emails on email template version 2</li>
-  <li>T-20: the keys are in the vault; note the sandbox push and the Resend comment</li>
-  <li>T-20: the Developer ID backup lives in the shared flatfield-signing project</li>
-  <li>T-20: release and deploy read their keys from the vault</li>
-  <li>T-19: task file (import renders inherit an earlier render&#x27;s licence)</li>
-  <li>T-18: the thirteen-parameter Compare render&#x27;s designer is Jo Bloggs, and ux.md&#x27;s example show is invented</li>
-  <li>T-18: renders use invented show, venue and designer names, and the app&#x27;s version</li>
-  <li>UI-106: tick the check.sh box</li>
-  <li>UI-105: Families&#x27; toolbar buttons go icon-only before the title leaves</li>
-  <li>T-18: task file (renders use invented show names and the app&#x27;s version)</li>
-  <li>UI-104: the import steps&#x27; Show tile takes a second line before it shortens</li>
-  <li>UI-106: the import banner counts palettes taken from the rig; a licence the build doesn&#x27;t accept has its own line</li>
-  <li>T-17: tick the boxes</li>
-  <li>T-17: the plain welcome renders draw the licence pill as the fill, as the window does</li>
-  <li>UI-106: the UX lead&#x27;s wording (banner, wrong-key licence)</li>
-  <li>AB-05 polish tasks (UI-104, UI-105, UI-106) and T-17 welcome renders</li>
-  <li>R-53: the window is 476 pt tall, for macOS 26&#x27;s 32 pt title bar; dark mount ticked</li>
-  <li>R-53: the arrow&#x27;s glow is 10 pt at both densities; check box ticked</li>
-  <li>UI-103: WelcomeText&#x27;s comment describes the new ground and band</li>
-  <li>UI-103: the welcome window in the site card&#x27;s look</li>
-  <li>UI-103: build spec (D½, the strip as tall as the title bar)</li>
-  <li>UI-102: only the tick is green; the added line&#x27;s words are primary (system green text is 2:1 in light)</li>
-  <li>UI-102: tick the check line in the task file</li>
-  <li>UI-103: the welcome window in the site card&#x27;s look</li>
-  <li>R-53: the designed DMG: background, layout written without Finder, Gelato&#x27;s icon on the disk</li>
-  <li>R-41: B5 and B6 say pro, after R-51</li>
-  <li>R-51: tick the check line</li>
-  <li>R-52: the release flag only for a release that is published; the version checked before the archive</li>
-  <li>R-53: the approved DMG design and its build spec</li>
-  <li>R-53: the welcome window in the site card&#x27;s style</li>
-  <li>R-51: the issuing tool&#x27;s command-line lines are British on purpose</li>
-  <li>R-53: task file, a designed DMG window</li>
-  <li>R-52: marketing versions: Gelato 0.2, the commit count as the build number, one release per version</li>
-  <li>UI-102: an added licence shows a green tick and a green line, announced to VoiceOver and cleared when the pane goes; the add lines are localised (R-06)</li>
-  <li>R-51: the Gelato Pro licence says pro, not showkit; issue-licence signs only with the key the app trusts</li>
-  <li>R-52: task file, marketing versions from 0.2</li>
-  <li>UI-102: UX lead&#x27;s note (green tick, cleared when the pane closes, VoiceOver announcement)</li>
-  <li>UI-102: task file, a tick when a licence is added</li>
-  <li>R-51: issue only with the key the app trusts</li>
-  <li>R-51: task file, the Gelato Pro licence product id is pro</li>
-  <li>R-41: B2 and B4 done, beta 0.1.3446 published</li>
+      <description><![CDATA[<h2>Gelato 0.2 (beta)</h2>
+<p>A new look for the welcome window and the installer, and clearer licences.</p>
+<ul>
+  <li>The welcome window has a new look, with a gel strip along the top.</li>
+  <li>The installer opens on a designed window: drag Gelato to Applications.</li>
+  <li>Adding a licence shows a tick and a line saying it was added. A key this version doesn’t accept says so on its own line.</li>
+  <li>A Gelato Pro licence now says Pro.</li>
+  <li>After an import, the banner counts the palettes taken from the rig.</li>
+  <li>On the import’s steps, a long show name takes a second line before it’s shortened.</li>
+  <li>Families’ toolbar buttons drop their labels only when the window is too narrow for them.</li>
+  <li>Versions are now numbered 0.2, 0.3 and so on.</li>
 </ul>]]></description>
       <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.2/Gelato-0.2.dmg" sparkle:edSignature="DkB2pC6p0rRCIkExLF0D5j5bn3URyS4B12BqhfqGdk/sPobGRAZ/3EGj4OwFQQJBljbXtsh1qSy8P811WpD2Aw==" length="21719459" type="application/x-apple-diskimage"/>
     </item>
