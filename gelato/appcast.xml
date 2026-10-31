@@ -3,6 +3,27 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.6</title>
+      <pubDate>Fri, 30 Oct 2026 22:08:48 GMT</pubDate>
+      <sparkle:version>4120</sparkle:version>
+      <sparkle:shortVersionString>0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-10-30</gelatoBuildDate>
+      <description><![CDATA[<h2>Gelato 0.6 (beta)</h2>
+<ul>
+  <li>On a template, the toolbar + now adds colours. It opens a list you can add from one at a time, or all at once in palette order. An empty template has an Add Colours… button too.</li>
+  <li>New Template has moved to the Templates screen, the File menu and the sidebar’s right-click menu.</li>
+  <li>Rename in a template’s right-click menu works: the name opens for editing, Return keeps it and Escape cancels.</li>
+  <li>Version menus say which light a version was recorded on, instead of (1) and (2), and a show’s versions sit together under its name.</li>
+  <li>On a colour’s page in a narrower window, the colour’s name sits beside the colour map. The “Versions differ” line is gone.</li>
+  <li>More in Help, in the ⓘ popovers, opens the right page of Help.</li>
+  <li>The disk image has a new window, and it opens as “Gelato”.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.6/Gelato-0.6.dmg" sparkle:edSignature="b1XU9cfmSp1XrkC7fU41xiTkTtUdzk4K9o/sgrv6QhU8v3E5hntPTdmtkgDMKUF1sHf7heuhQjBmt5N+1z8DDw==" length="22333344" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.5.1</title>
       <pubDate>Thu, 29 Oct 2026 11:28:44 GMT</pubDate>
       <sparkle:version>3976</sparkle:version>
