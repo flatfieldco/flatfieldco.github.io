@@ -23,12 +23,22 @@
       <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/exeunt_0.1.865_arm64.deb" length="2411784" type="application/octet-stream" sparkle:edSignature="kcosiP/Bx2pnioeP75/VygJ/849VTggRFQ3jFgvtlkKTe0tp5HXx9szmul7c52QoxzqEuG7cI5oGbhA/uHI6CA=="/>
     </item>
     <item>
-      <title>Exeunt 0.2.0</title>
-      <sparkle:version>1013</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>Exeunt 0.3.0</title>
+      <sparkle:version>1328</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:os>macos</sparkle:os>
-      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.2.0/Exeunt-0.2.0.dmg" length="15229683" type="application/octet-stream" sparkle:edSignature="mw9SSFT+KTjNVDV1ckHXhimlTC7ETkJc0KkCrU+A8XwVEPHG/HhUWQt+UC3OaRmb9HR5KPTGL/5kP0Nob4llBQ=="/>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>A beta with two new ways to shut down: OSC and text commands.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Shut down over OSC.</strong> QLab or Companion can send /exeunt/shutdown/&lt;key&gt;.</li>
+<li><strong>Shut down with text.</strong> Crestron or Q-SYS can send exeunt shutdown &lt;key&gt;.</li>
+<li><strong>Triggers.</strong> Every way to shut down is in one place, each with its own switch.</li>
+<li><strong>Eos names.</strong> Primaries show their Eos names, and yours has a tick.</li></ul>
+<h3>Good to know</h3>
+<p>OSC and Text stay off, with ports 9193 and 9194 closed, until you turn them on.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.0/Exeunt-0.3.0.dmg" length="18992663" type="application/octet-stream" sparkle:edSignature="BKdu7T2sPpXd0YQxdy1d9hySJHHmCPcqoGGEM4taDZ8R5NyPCVBlahSlGEzZMrQKVO2YgOjAqFSLXi1YfaEeAQ=="/>
     </item>
     <item>
       <title>Exeunt 0.1.865</title>
