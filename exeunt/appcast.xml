@@ -61,13 +61,23 @@
       <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.0/Exeunt-0.3.0.dmg" length="18992663" type="application/octet-stream" sparkle:edSignature="BKdu7T2sPpXd0YQxdy1d9hySJHHmCPcqoGGEM4taDZ8R5NyPCVBlahSlGEzZMrQKVO2YgOjAqFSLXi1YfaEeAQ=="/>
     </item>
     <item>
-      <title>Exeunt 0.1.865</title>
-      <sparkle:version>865</sparkle:version>
-      <sparkle:shortVersionString>0.1.865</sparkle:shortVersionString>
+      <title>Exeunt 0.3.2</title>
+      <sparkle:version>1341</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
       <sparkle:os>windows</sparkle:os>
       <exeunt:arch>amd64</exeunt:arch>
-      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/Exeunt-Setup-0.1.865.exe" length="16297394" type="application/octet-stream" sparkle:edSignature="0Y2kqYm+MzIjOwBOu7m0KXFlRvkxkEw+36DFu22i5OLDCb1uc8/zGU3Dsa8orFjI54r+5pJjgV4OFW60QsoeDw=="/>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>A Windows beta with two new ways to shut down: OSC and text commands.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Shut down over OSC.</strong> Turn it on, then send /exeunt/shutdown/&lt;key&gt;.</li>
+<li><strong>Shut down with text.</strong> Turn it on, then send exeunt shutdown &lt;key&gt;.</li>
+<li><strong>Triggers.</strong> Every way to shut down is in one place, each with its own switch.</li>
+<li><strong>Start menu.</strong> Exeunt now has its own entry in the Start menu.</li></ul>
+<h3>Good to know</h3>
+<p>OSC and Text start off. Exeunt sends one anonymous ping a day.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.2/Exeunt-Setup-0.3.2.exe" length="17451586" type="application/octet-stream" sparkle:edSignature="iKb/lOAE02rTcB9eMj9nu7gQSR3mfmGRra0IQJkvvhmYwyuPlwEHedBwdVV/2PkLSTeBq7iGKZHtjw+jAGtoDw=="/>
     </item>
   </channel>
 </rss>
