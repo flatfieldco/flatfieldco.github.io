@@ -5,22 +5,42 @@
     <link>https://flatfield.co/exeunt/</link>
     <description>Exeunt updates</description>
     <item>
-      <title>Exeunt 0.1.865</title>
-      <sparkle:version>865</sparkle:version>
-      <sparkle:shortVersionString>0.1.865</sparkle:shortVersionString>
+      <title>Exeunt 0.3.1</title>
+      <sparkle:version>1338</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:os>linux</sparkle:os>
       <exeunt:arch>amd64</exeunt:arch>
-      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/exeunt_0.1.865_amd64.deb" length="2836248" type="application/octet-stream" sparkle:edSignature="hCd3CpQKeQm8mEKQ3rTgJYX3utWE/l/JmtuyFQOGGaXvLJOEYGlEu8XoOWok1G4IoWScD+82dx8DdOUSj7oMCQ=="/>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>A Linux beta with two new ways to shut down: OSC and text commands.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Shut down over OSC.</strong> Run exeuntd osc on, then send /exeunt/shutdown/&lt;key&gt;.</li>
+<li><strong>Shut down with text.</strong> Run exeuntd text on, then send exeunt shutdown &lt;key&gt;.</li>
+<li><strong>Triggers.</strong> exeuntd triggers lists each way to shut down, with its switch.</li>
+<li><strong>Anonymous ping.</strong> Sent once a day. EXEUNT_NO_PING=1 turns it off.</li></ul>
+<h3>Good to know</h3>
+<p>Once on, OSC uses port 9193 and Text uses port 9194. Open them in your firewall.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.1/exeunt_0.3.1_amd64.deb" length="3613468" type="application/octet-stream" sparkle:edSignature="P0uJ7O89WUnaVV8SVJ7RXghDHPHBcEzcCvLD/Lvfghf2dXAoV5ohNmXAPpjzYuBo485gTQw1aerJN8/gcUksAQ=="/>
     </item>
     <item>
-      <title>Exeunt 0.1.865</title>
-      <sparkle:version>865</sparkle:version>
-      <sparkle:shortVersionString>0.1.865</sparkle:shortVersionString>
+      <title>Exeunt 0.3.1</title>
+      <sparkle:version>1338</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:os>linux</sparkle:os>
       <exeunt:arch>arm64</exeunt:arch>
-      <sparkle:releaseNotesLink>https://flatfield.co/exeunt/</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.1.865/exeunt_0.1.865_arm64.deb" length="2411784" type="application/octet-stream" sparkle:edSignature="kcosiP/Bx2pnioeP75/VygJ/849VTggRFQ3jFgvtlkKTe0tp5HXx9szmul7c52QoxzqEuG7cI5oGbhA/uHI6CA=="/>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>A Linux beta with two new ways to shut down: OSC and text commands.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Shut down over OSC.</strong> Run exeuntd osc on, then send /exeunt/shutdown/&lt;key&gt;.</li>
+<li><strong>Shut down with text.</strong> Run exeuntd text on, then send exeunt shutdown &lt;key&gt;.</li>
+<li><strong>Triggers.</strong> exeuntd triggers lists each way to shut down, with its switch.</li>
+<li><strong>Anonymous ping.</strong> Sent once a day. EXEUNT_NO_PING=1 turns it off.</li></ul>
+<h3>Good to know</h3>
+<p>Once on, OSC uses port 9193 and Text uses port 9194. Open them in your firewall.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.1/exeunt_0.3.1_arm64.deb" length="3070636" type="application/octet-stream" sparkle:edSignature="+AlfnjvNgnu8qg05agkKUeIhxZFjkmMRWfumbbjPhRFiYIgqnGrFojuwcOj9GxAKCRntkihAAm2qFPnsaOPhDQ=="/>
     </item>
     <item>
       <title>Exeunt 0.3.0</title>
