@@ -3,6 +3,40 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.6.1</title>
+      <pubDate>Mon, 09 Nov 2026 18:26:06 GMT</pubDate>
+      <sparkle:version>4660</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-11-09</gelatoBuildDate>
+      <description><![CDATA[<h2>Gelato 0.6.1 (beta)</h2>
+<ul>
+  <li>File ▸ Export as PDF… puts a show’s colour palettes on paper, for any console, on the paper your Mac’s printer uses.</li>
+  <li>Export as CSV works before the ghosts are patched. The ghost list goes with it: patch the ghosts, then import the CSV.</li>
+  <li>Gelato now comes as Gelato and Gelato Pro. Connecting to a console needs Gelato Pro or the trial.</li>
+  <li>Preview on a Light is now Preview Live, and designers’ choices are now Designer Libraries.</li>
+  <li>On Build you can choose what a build writes: colour palettes, beam palettes, focus palettes or specials.</li>
+  <li>Build lists the ghosts once, under Rig types, and a multicell is one column in the coverage grid.</li>
+  <li>Every cell type of a multicell gets its palettes, not only the first.</li>
+  <li>A multicell on a low channel, with cells numbered like 510000, now imports as a multicell. Colours already filed under its cells’ numbers move to the multicell when the library opens.</li>
+  <li>[Shutdown] gives a moving light with no value Pan 0, Tilt 0, so Specials no longer has gaps.</li>
+  <li>Build no longer asks for the Programming partition when it’s already set, and a plan from a CSV no longer asks you to turn on Create Virtual HSB.</li>
+  <li>For a new show, Build’s Show row offers Add to Library…, and the show export is optional. The show bar’s popover opens for a show that isn’t in the library.</li>
+  <li>On a show’s page, All Lights and All Colours take you back to the whole list, and choosing a colour shows which lights have it.</li>
+  <li>A colour’s page is two lists, lights and versions, and choosing between versions is in Edit Colour….</li>
+  <li>A template can list its colours by palette number, in your own order or by name.</li>
+  <li>⌘[ goes back, and the show or colour you came from is selected again.</li>
+  <li>Gel colours come from Eos’s own gel list, and the Shows strip shows each show’s gel-reference palettes.</li>
+  <li>Colour ▸ Remove Colours with No Mixes… clears out colours that hold nothing.</li>
+  <li>Modes of one light share one colour wheel, with the same slot names.</li>
+  <li>To Choose keeps its order while you choose, and can choose for several colours at once.</li>
+  <li>Opening a licence file opens Settings on the Licence pane, so you can see it went in.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.6.1/Gelato-0.6.1.dmg" sparkle:edSignature="Qk6B0L63WxPom8CKSTi+i1zjb4lPDYBkgqBvjccR4AygWLI3228FR1m3eK2jNd/YPMcMCa7pfLueKq3iJ17DBg==" length="23453137" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.6</title>
       <pubDate>Fri, 30 Oct 2026 22:08:48 GMT</pubDate>
       <sparkle:version>4120</sparkle:version>
