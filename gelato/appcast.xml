@@ -3,6 +3,33 @@
   <channel>
     <title>Gelato</title>
     <item>
+      <title>Gelato 0.7.0</title>
+      <pubDate>Tue, 10 Nov 2026 12:22:30 GMT</pubDate>
+      <sparkle:version>4786</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <gelatoBuildDate>2026-11-10</gelatoBuildDate>
+      <description><![CDATA[<h2>Gelato 0.7.0</h2>
+<p>This update fixes a freeze on macOS 15 and a crash when planning a build again, lets you choose ghost numbering right on Build, and makes Build’s coverage clearer about what’s left to do.</p>
+<h3>What’s new</h3>
+<ul>
+  <li><strong>Choose how new ghosts are numbered on Build.</strong> New ghosts, above Rig types, switches between rig order and manufacturer blocks and plans the build again. Library Settings shows the same choice, and a change made there now reaches the plan on Build too. (B-26)</li>
+  <li><strong>Cells the import can’t read.</strong> The Import sheet now lists the cells it couldn’t place and the colour palette levels for channels that aren’t patched, so you know what is missing. (R-78)</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+  <li><strong>A colour’s or a show’s page opens on macOS 15.</strong> On macOS 15, opening one of these pages froze Gelato at full CPU with its memory climbing. They open at once now. The Settings sidebar’s License row also reads in US English. (B-30)</li>
+  <li><strong>Plan Again no longer quits Gelato.</strong> Planning a build again after using Gelato for a while could close the app. It now plans as often as you like. (B-27)</li>
+  <li><strong>New multicell lights get their gel.</strong> A multicell light the library hasn’t met now gets its gel reference on the whole channel, and Coverage shows its Master column, so what the build types is what the grid shows. Preview shows the colour on the whole light too. (R-82, R-83)</li>
+  <li><strong>Build coverage counts what you can fix.</strong> Its header counts the palettes and types with something to set, and a cell for a colour a light can’t hold reads No parameter, not Missing, so the Missing count is what is left for you to sort out. (B-29, UI-132)</li>
+  <li><strong>Plan on Console matches a connected plan.</strong> It now types the same lines you’d get building with the console connected. (R-79)</li>
+  <li><strong>A library that can’t be updated says what to do.</strong> You can report it with Send Feedback… straight from the alert, and the file is left as it was. (R-80)</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/gelato-releases/releases/download/v0.7.0/Gelato-0.7.0.dmg" sparkle:edSignature="bjh2hX26moiiFtLHUwZxA9C1R4qpmnAVy6ujL7+Z8gGr0IzSupk6SMcK6BVQT+DOvYFEzgG2cD1OcZLJAkn+Ag==" length="23559564" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Gelato 0.6.1</title>
       <pubDate>Mon, 09 Nov 2026 18:26:06 GMT</pubDate>
       <sparkle:version>4660</sparkle:version>
