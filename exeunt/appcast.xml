@@ -21,7 +21,7 @@
 <p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_amd64.deb" length="3626160" type="application/octet-stream" sparkle:edSignature="ym9PJDwLBHP/RVajWKMgxkdbQkpwzZBSRcD4oK5c5LmJouS/3Ak9F3h99v7zmkCpxojP67F5X5YTtBJYgbmcBg=="/>
+      <enclosure sparkle:os="linux" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_amd64.deb" length="3626160" type="application/octet-stream" sparkle:edSignature="ym9PJDwLBHP/RVajWKMgxkdbQkpwzZBSRcD4oK5c5LmJouS/3Ak9F3h99v7zmkCpxojP67F5X5YTtBJYgbmcBg=="/>
     </item>
     <item>
       <title>Exeunt 0.3.3</title>
@@ -40,7 +40,7 @@
 <p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_arm64.deb" length="3080660" type="application/octet-stream" sparkle:edSignature="kNoZqThom0ceV9Q7CdzaMdCpoIGeLCduBLOk9e8wBjqtjrENOiMyuy0uAeAznIxh5B+6nUAdsG0J1jnT3mudDQ=="/>
+      <enclosure sparkle:os="linux" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_arm64.deb" length="3080660" type="application/octet-stream" sparkle:edSignature="kNoZqThom0ceV9Q7CdzaMdCpoIGeLCduBLOk9e8wBjqtjrENOiMyuy0uAeAznIxh5B+6nUAdsG0J1jnT3mudDQ=="/>
     </item>
     <item>
       <title>Exeunt 0.3.0</title>
@@ -58,7 +58,7 @@
 <p>OSC and Text stay off, with ports 9193 and 9194 closed, until you turn them on.</p>
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.0/Exeunt-0.3.0.dmg" length="18992663" type="application/octet-stream" sparkle:edSignature="BKdu7T2sPpXd0YQxdy1d9hySJHHmCPcqoGGEM4taDZ8R5NyPCVBlahSlGEzZMrQKVO2YgOjAqFSLXi1YfaEeAQ=="/>
+      <enclosure sparkle:os="macos" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.0/Exeunt-0.3.0.dmg" length="18992663" type="application/octet-stream" sparkle:edSignature="BKdu7T2sPpXd0YQxdy1d9hySJHHmCPcqoGGEM4taDZ8R5NyPCVBlahSlGEzZMrQKVO2YgOjAqFSLXi1YfaEeAQ=="/>
     </item>
     <item>
       <title>Exeunt 0.3.3</title>
@@ -77,7 +77,7 @@
 <p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/Exeunt-Setup-0.3.3.exe" length="17470725" type="application/octet-stream" sparkle:edSignature="Q4GqF6BJ/Ov6KNt061J1AxOvDRymAEVCkwdzP5Aj6Y0b69SvWbc43/DK6RrPmg4qsxWtY2OSwCZZoFqjih2vAA=="/>
+      <enclosure sparkle:os="windows" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/Exeunt-Setup-0.3.3.exe" length="17470725" type="application/octet-stream" sparkle:edSignature="Q4GqF6BJ/Ov6KNt061J1AxOvDRymAEVCkwdzP5Aj6Y0b69SvWbc43/DK6RrPmg4qsxWtY2OSwCZZoFqjih2vAA=="/>
     </item>
   </channel>
 </rss>
