@@ -5,6 +5,30 @@
     <link>https://flatfield.co/exeunt/</link>
     <description>Exeunt updates</description>
     <item>
+      <title>Exeunt 0.3.4 beta</title>
+      <pubDate>Tue, 17 Nov 2026 13:16:04 GMT</pubDate>
+      <sparkle:version>1780</sparkle:version>
+      <sparkle:shortVersionString>0.3.4 beta</sparkle:shortVersionString>
+      <sparkle:os>macos</sparkle:os>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>An update for testers that makes Eos shutdown steadier on show networks.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Wake from Eos.</strong> On Windows, an Eos Primary’s Multiconsole Power On can now wake this computer. Turn on Wake with Multiconsole Power On, then try it once before a show. (E-09)</li>
+<li><strong>Runs alongside ETCnomad on Windows.</strong> Exeunt and Nomad can now share the same computer, and if another app is using the Eos port, Exeunt tells you this computer won’t shut down with Eos. (E-12)</li>
+<li><strong>Back after a network blip.</strong> Exeunt reconnects to the Eos Primary by itself after a short drop. (E-11)</li>
+<li><strong>Smart App Control.</strong> On Windows, Exeunt now warns you if Smart App Control could stop it. (UI-47)</li>
+<li><strong>Easier to spot.</strong> On a Mac, the menu bar icon now has a little of the logo’s glow, and on Windows the tray shows Exeunt’s own icon. (UI-50, UI-49)</li>
+<li><strong>Open Exeunt.</strong> The menu on Exeunt’s icon now has Open Exeunt, which brings the window back on the page you last had open. On Windows, the menu follows your light or dark mode, and switching modes no longer closes Exeunt. (UI-44, UI-45)</li>
+<li><strong>Clearer messages.</strong> The Eos line at the foot of the window is shorter, and if you open the wrong file on the Licence page, Exeunt tells you which file it needs. (UI-48, UI-52)</li>
+<li><strong>Beta updates.</strong> To try new versions before they’re released, turn on Get Beta Updates in the Exeunt menu. Turn it off again to get only regular releases. (R-38)</li></ul>
+<h3>Good to know</h3>
+<p>The Eos port is 5568. Running another Eos app beside Exeunt on a Mac isn’t supported yet.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.4/Exeunt-0.3.4.dmg" sparkle:os="macos" sparkle:edSignature="0jlNrp3Dcwdn/K9oEJqjWfGCW79AmbS37JI29Uu8OhMUYowfAHmgwXrtlpS/Z+qNMSfLNPzXuGFmeBexNjSwCQ==" length="19229526" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Exeunt 0.3.3</title>
       <sparkle:version>1399</sparkle:version>
       <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
@@ -41,24 +65,6 @@
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
       <enclosure sparkle:os="linux" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_arm64.deb" length="3080660" type="application/octet-stream" sparkle:edSignature="kNoZqThom0ceV9Q7CdzaMdCpoIGeLCduBLOk9e8wBjqtjrENOiMyuy0uAeAznIxh5B+6nUAdsG0J1jnT3mudDQ=="/>
-    </item>
-    <item>
-      <title>Exeunt 0.3.0</title>
-      <sparkle:version>1328</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-      <sparkle:os>macos</sparkle:os>
-      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
-<p>A beta with two new ways to shut down: OSC and text commands.</p>
-<h3>What’s new</h3>
-<ul><li><strong>Shut down over OSC.</strong> QLab or Companion can send /exeunt/shutdown/&lt;key&gt;.</li>
-<li><strong>Shut down with text.</strong> Crestron or Q-SYS can send exeunt shutdown &lt;key&gt;.</li>
-<li><strong>Triggers.</strong> Every way to shut down is in one place, each with its own switch.</li>
-<li><strong>Eos names.</strong> Primaries show their Eos names, and yours has a tick.</li></ul>
-<h3>Good to know</h3>
-<p>OSC and Text stay off, with ports 9193 and 9194 closed, until you turn them on.</p>
-<p>Help and questions: support@flatfield.co</p>
-]]></description>
-      <enclosure sparkle:os="macos" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.0/Exeunt-0.3.0.dmg" length="18992663" type="application/octet-stream" sparkle:edSignature="BKdu7T2sPpXd0YQxdy1d9hySJHHmCPcqoGGEM4taDZ8R5NyPCVBlahSlGEzZMrQKVO2YgOjAqFSLXi1YfaEeAQ=="/>
     </item>
     <item>
       <title>Exeunt 0.3.3</title>
