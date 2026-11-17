@@ -1,14 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:exeunt="https://flatfield.co/exeunt/appcast">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:exeunt="https://flatfield.co/exeunt/appcast">
   <channel>
     <title>Exeunt</title>
-    <link>https://flatfield.co/exeunt/</link>
-    <description>Exeunt updates</description>
     <item>
-      <title>Exeunt 0.3.4 beta</title>
-      <pubDate>Tue, 17 Nov 2026 13:16:04 GMT</pubDate>
-      <sparkle:version>1780</sparkle:version>
-      <sparkle:shortVersionString>0.3.4 beta</sparkle:shortVersionString>
+      <title>Exeunt 0.3.5 beta</title>
+      <pubDate>Tue, 17 Nov 2026 13:34:51 GMT</pubDate>
+      <sparkle:version>1782</sparkle:version>
+      <sparkle:shortVersionString>0.3.5 beta</sparkle:shortVersionString>
+      <sparkle:os>windows</sparkle:os>
+      <exeunt:arch>amd64</exeunt:arch>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>An update for testers that makes Eos shutdown steadier on show networks.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Wake from Eos.</strong> On Windows, an Eos Primary’s Multiconsole Power On can now wake this computer. Turn on Wake with Multiconsole Power On, then try it once before a show. (E-09)</li>
+<li><strong>Runs alongside ETCnomad on Windows.</strong> Exeunt and Nomad can now share the same computer, and if another app is using the Eos port, Exeunt tells you this computer won’t shut down with Eos. (E-12)</li>
+<li><strong>Back after a network blip.</strong> Exeunt reconnects to the Eos Primary by itself after a short drop. (E-11)</li>
+<li><strong>Smart App Control.</strong> On Windows, Exeunt now warns you if Smart App Control could stop it. (UI-47)</li>
+<li><strong>Easier to spot.</strong> On a Mac, the menu bar icon now has a little of the logo’s glow, and on Windows the tray shows Exeunt’s own icon. (UI-50, UI-49)</li>
+<li><strong>Open Exeunt.</strong> The menu on Exeunt’s icon now has Open Exeunt, which brings the window back on the page you last had open. On Windows, the menu follows your light or dark mode, and switching modes no longer closes Exeunt. (UI-44, UI-45)</li>
+<li><strong>Clearer messages.</strong> The Eos line at the foot of the window is shorter, and if you open the wrong file on the Licence page, Exeunt tells you which file it needs. (UI-48, UI-52)</li>
+<li><strong>Beta updates.</strong> To try new versions before they’re released, turn on Get Beta Updates in the Exeunt menu. Turn it off again to get only regular releases. (R-38)</li></ul>
+<h3>Good to know</h3>
+<p>The Eos port is 5568. Running another Eos app beside Exeunt on a Mac isn’t supported yet.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.5/Exeunt-Setup-0.3.5.exe" sparkle:os="windows" sparkle:edSignature="AJcLDCXMqtDUVRpZ/o96Z4ji67woHVUJREkJbTmfgCileXCtWeFs6C4PmDZow62WOw2dBXP6SE5Yv7vLe7p7BA==" length="17597805" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Exeunt 0.3.5 beta</title>
+      <pubDate>Tue, 17 Nov 2026 13:34:44 GMT</pubDate>
+      <sparkle:version>1782</sparkle:version>
+      <sparkle:shortVersionString>0.3.5 beta</sparkle:shortVersionString>
+      <sparkle:os>linux</sparkle:os>
+      <exeunt:arch>arm64</exeunt:arch>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>An update for testers that makes Eos shutdown steadier on show networks.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Wake from Eos.</strong> On Windows, an Eos Primary’s Multiconsole Power On can now wake this computer. Turn on Wake with Multiconsole Power On, then try it once before a show. (E-09)</li>
+<li><strong>Runs alongside ETCnomad on Windows.</strong> Exeunt and Nomad can now share the same computer, and if another app is using the Eos port, Exeunt tells you this computer won’t shut down with Eos. (E-12)</li>
+<li><strong>Back after a network blip.</strong> Exeunt reconnects to the Eos Primary by itself after a short drop. (E-11)</li>
+<li><strong>Smart App Control.</strong> On Windows, Exeunt now warns you if Smart App Control could stop it. (UI-47)</li>
+<li><strong>Easier to spot.</strong> On a Mac, the menu bar icon now has a little of the logo’s glow, and on Windows the tray shows Exeunt’s own icon. (UI-50, UI-49)</li>
+<li><strong>Open Exeunt.</strong> The menu on Exeunt’s icon now has Open Exeunt, which brings the window back on the page you last had open. On Windows, the menu follows your light or dark mode, and switching modes no longer closes Exeunt. (UI-44, UI-45)</li>
+<li><strong>Clearer messages.</strong> The Eos line at the foot of the window is shorter, and if you open the wrong file on the Licence page, Exeunt tells you which file it needs. (UI-48, UI-52)</li>
+<li><strong>Beta updates.</strong> To try new versions before they’re released, turn on Get Beta Updates in the Exeunt menu. Turn it off again to get only regular releases. (R-38)</li></ul>
+<h3>Good to know</h3>
+<p>The Eos port is 5568. Running another Eos app beside Exeunt on a Mac isn’t supported yet.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.5/exeunt_0.3.5_arm64.deb" sparkle:os="linux" sparkle:edSignature="Y/vEmKl0hHxeBixsuri0r1VuT6TcaErBT9IC6zshTupT5RYR13YsR+oo8JgjF7f10pFDqF8CvMCpatGo/DtoBw==" length="3142544" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Exeunt 0.3.5 beta</title>
+      <pubDate>Tue, 17 Nov 2026 13:34:44 GMT</pubDate>
+      <sparkle:version>1782</sparkle:version>
+      <sparkle:shortVersionString>0.3.5 beta</sparkle:shortVersionString>
+      <sparkle:os>linux</sparkle:os>
+      <exeunt:arch>amd64</exeunt:arch>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
+<p>An update for testers that makes Eos shutdown steadier on show networks.</p>
+<h3>What’s new</h3>
+<ul><li><strong>Wake from Eos.</strong> On Windows, an Eos Primary’s Multiconsole Power On can now wake this computer. Turn on Wake with Multiconsole Power On, then try it once before a show. (E-09)</li>
+<li><strong>Runs alongside ETCnomad on Windows.</strong> Exeunt and Nomad can now share the same computer, and if another app is using the Eos port, Exeunt tells you this computer won’t shut down with Eos. (E-12)</li>
+<li><strong>Back after a network blip.</strong> Exeunt reconnects to the Eos Primary by itself after a short drop. (E-11)</li>
+<li><strong>Smart App Control.</strong> On Windows, Exeunt now warns you if Smart App Control could stop it. (UI-47)</li>
+<li><strong>Easier to spot.</strong> On a Mac, the menu bar icon now has a little of the logo’s glow, and on Windows the tray shows Exeunt’s own icon. (UI-50, UI-49)</li>
+<li><strong>Open Exeunt.</strong> The menu on Exeunt’s icon now has Open Exeunt, which brings the window back on the page you last had open. On Windows, the menu follows your light or dark mode, and switching modes no longer closes Exeunt. (UI-44, UI-45)</li>
+<li><strong>Clearer messages.</strong> The Eos line at the foot of the window is shorter, and if you open the wrong file on the Licence page, Exeunt tells you which file it needs. (UI-48, UI-52)</li>
+<li><strong>Beta updates.</strong> To try new versions before they’re released, turn on Get Beta Updates in the Exeunt menu. Turn it off again to get only regular releases. (R-38)</li></ul>
+<h3>Good to know</h3>
+<p>The Eos port is 5568. Running another Eos app beside Exeunt on a Mac isn’t supported yet.</p>
+<p>Help and questions: support@flatfield.co</p>
+]]></description>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.5/exeunt_0.3.5_amd64.deb" sparkle:os="linux" sparkle:edSignature="WhA5yG07RLkbU1PNKUofwvzlvUaHPICtjQl5iVb6D4TtvZ5ocemPSW75bxWkLdsIWAZRBkIlDiLzgD7i2HDrCw==" length="3697976" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Exeunt 0.3.5 beta</title>
+      <pubDate>Tue, 17 Nov 2026 13:34:43 GMT</pubDate>
+      <sparkle:version>1782</sparkle:version>
+      <sparkle:shortVersionString>0.3.5 beta</sparkle:shortVersionString>
       <sparkle:os>macos</sparkle:os>
       <sparkle:channel>beta</sparkle:channel>
       <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
@@ -26,64 +99,7 @@
 <p>The Eos port is 5568. Running another Eos app beside Exeunt on a Mac isn’t supported yet.</p>
 <p>Help and questions: support@flatfield.co</p>
 ]]></description>
-      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.4/Exeunt-0.3.4.dmg" sparkle:os="macos" sparkle:edSignature="0jlNrp3Dcwdn/K9oEJqjWfGCW79AmbS37JI29Uu8OhMUYowfAHmgwXrtlpS/Z+qNMSfLNPzXuGFmeBexNjSwCQ==" length="19229526" type="application/x-apple-diskimage"/>
-    </item>
-    <item>
-      <title>Exeunt 0.3.3</title>
-      <sparkle:version>1399</sparkle:version>
-      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-      <sparkle:os>linux</sparkle:os>
-      <exeunt:arch>amd64</exeunt:arch>
-      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
-<p>A Linux and Windows beta that brings Eos shutdown to Linux.</p>
-<h3>What’s new</h3>
-<ul><li><strong>Eos on Linux.</strong> exeuntd eos finds Eos Primaries and follows the one you choose.</li>
-<li><strong>Quit Exeunt on Windows.</strong> The tray menu now ends with Quit Exeunt.</li>
-<li><strong>Licence stopping shutdowns?</strong> exeuntd triggers and eos now say so.</li>
-<li><strong>Help.</strong> help, -h and --help now work on every exeuntd command.</li></ul>
-<h3>Good to know</h3>
-<p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
-<p>Help and questions: support@flatfield.co</p>
-]]></description>
-      <enclosure sparkle:os="linux" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_amd64.deb" length="3626160" type="application/octet-stream" sparkle:edSignature="ym9PJDwLBHP/RVajWKMgxkdbQkpwzZBSRcD4oK5c5LmJouS/3Ak9F3h99v7zmkCpxojP67F5X5YTtBJYgbmcBg=="/>
-    </item>
-    <item>
-      <title>Exeunt 0.3.3</title>
-      <sparkle:version>1399</sparkle:version>
-      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-      <sparkle:os>linux</sparkle:os>
-      <exeunt:arch>arm64</exeunt:arch>
-      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
-<p>A Linux and Windows beta that brings Eos shutdown to Linux.</p>
-<h3>What’s new</h3>
-<ul><li><strong>Eos on Linux.</strong> exeuntd eos finds Eos Primaries and follows the one you choose.</li>
-<li><strong>Quit Exeunt on Windows.</strong> The tray menu now ends with Quit Exeunt.</li>
-<li><strong>Licence stopping shutdowns?</strong> exeuntd triggers and eos now say so.</li>
-<li><strong>Help.</strong> help, -h and --help now work on every exeuntd command.</li></ul>
-<h3>Good to know</h3>
-<p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
-<p>Help and questions: support@flatfield.co</p>
-]]></description>
-      <enclosure sparkle:os="linux" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/exeunt_0.3.3_arm64.deb" length="3080660" type="application/octet-stream" sparkle:edSignature="kNoZqThom0ceV9Q7CdzaMdCpoIGeLCduBLOk9e8wBjqtjrENOiMyuy0uAeAznIxh5B+6nUAdsG0J1jnT3mudDQ=="/>
-    </item>
-    <item>
-      <title>Exeunt 0.3.3</title>
-      <sparkle:version>1399</sparkle:version>
-      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-      <sparkle:os>windows</sparkle:os>
-      <exeunt:arch>amd64</exeunt:arch>
-      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif;margin:10px 12px}h3{font-size:13px;font-weight:600;margin:14px 0 4px}p{margin:0 0 8px}ul{margin:0 0 8px;padding-left:1.2em}li{margin:2px 0}</style>
-<p>A Linux and Windows beta that brings Eos shutdown to Linux.</p>
-<h3>What’s new</h3>
-<ul><li><strong>Eos on Linux.</strong> exeuntd eos finds Eos Primaries and follows the one you choose.</li>
-<li><strong>Quit Exeunt on Windows.</strong> The tray menu now ends with Quit Exeunt.</li>
-<li><strong>Licence stopping shutdowns?</strong> exeuntd triggers and eos now say so.</li>
-<li><strong>Help.</strong> help, -h and --help now work on every exeuntd command.</li></ul>
-<h3>Good to know</h3>
-<p>Quit closes the tray only: shutdowns still work. The Start menu reopens it.</p>
-<p>Help and questions: support@flatfield.co</p>
-]]></description>
-      <enclosure sparkle:os="windows" url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.3/Exeunt-Setup-0.3.3.exe" length="17470725" type="application/octet-stream" sparkle:edSignature="Q4GqF6BJ/Ov6KNt061J1AxOvDRymAEVCkwdzP5Aj6Y0b69SvWbc43/DK6RrPmg4qsxWtY2OSwCZZoFqjih2vAA=="/>
+      <enclosure url="https://github.com/flatfieldco/exeunt-releases/releases/download/v0.3.5/Exeunt-0.3.5.dmg" sparkle:os="macos" sparkle:edSignature="aG/bpSSYDYLiroGB/asnPPiJjd5ifkA5AHI89JlrWzyJc6Wkybo/IOmf+qLmN3pGZV4ofIABAg0AkqfuKMxkCw==" length="19229475" type="application/x-apple-diskimage"/>
     </item>
   </channel>
 </rss>
